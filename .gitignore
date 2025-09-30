@@ -1,0 +1,96 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Laravel specific
+/server/vendor/
+/server/node_modules/
+/server/public/hot
+/server/public/storage
+/server/storage/*.key
+/server/.env
+/server/.env.backup
+/server/.env.production
+/server/.phpunit.result.cache
+/server/Homestead.json
+/server/Homestead.yaml
+/server/auth.json
+/server/npm-debug.log
+/server/yarn-error.log
+/server/.fleet
+/server/.vscode
+
+# React/Vite specific
+/client/node_modules/
+/client/dist/
+/client/.env
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+/client/pnpm-debug.log*
+/client/lerna-debug.log*
+
+# General Node.js
+*.log
+logs
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+nyc_output
+.grunt
+bower_components
+.lock-wscript
+build/Release
+node_modules/
+jspm_packages/
+typings/
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env
+.cache
+.parcel-cache
+.next
+out
+.nuxt
+dist
+.cache/
+.vuepress/dist
+.serverless
+.fusebox/
+.dynamodb/
+.tern-port
+
+# PHP specific
+composer.phar
+/vendor/
+.phpunit.result.cache
+
+# Database files (you might want to include/exclude these based on your needs)
+*.sqlite
+*.db
+
+# Logs
+*.log

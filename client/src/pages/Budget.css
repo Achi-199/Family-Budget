@@ -1,0 +1,78 @@
+.budget-container {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+.budget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto 1rem; 
+}
+
+.budget-title {
+  margin: 0;
+  text-align: center;
+  flex: 1;
+  font-size: 2rem;
+}
+
+.new-entry-button {
+  background-color: #1976d2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.budget-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.new-entry-link:hover {
+  background-color: #115293;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.budget-table th, 
+.budget-table td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.budget-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.budget-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.budget-table td.amount-positive {
+  color: green;
+}
+
+.budget-table td.amount-negative {
+  color: red;
+}
+
+.budget-table td.actions a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.budget-table td.actions a:hover {
+  text-decoration: underline;
+}
